@@ -3,6 +3,7 @@ package tw.core;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import tw.core.exception.AnswerFormatIncorrectException;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
@@ -55,5 +56,12 @@ public class AnswerTest {
         String result=actualAnswer.check(answer).getValue();
 //        assert result.equals("1A0B");
         assertThat(result, is("0A0B"));
+    }
+
+    @Test
+    public void should_retrun_wrong_input_when_input_1_1_2_3()throws  AnswerFormatIncorrectException{
+
+        Answer answer=Answer.createAnswer("1 1 2 3");
+        
     }
 }
