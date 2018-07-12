@@ -61,4 +61,15 @@ public class GameTest {
         assertThat(game.checkCoutinue(), is(true));
     }
 
+    @Test
+    public void should_the_checkStatus_continue_when_guess_input_one() throws Exception {
+
+        //given
+//        excuteSuccessGuess();
+        GuessResult guess = game.guess(Answer.createAnswer("1 5 3 4"));
+
+
+        assertThat(game.checkStatus(), is("continue"));
+    }
+
 }

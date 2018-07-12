@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c24ff8fe-cb61-4660-9ac0-8f3d6dedc203" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c24ff8fe-cb61-4660-9ac0-8f3d6dedc203" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,7 +19,7 @@
     <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest.ic" NAME="AnswerTest Coverage Results" MODIFIED="1531388194495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tw.core.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/guess_number_kata$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1531388686920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/guess_number_kata$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1531391762025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tw.core.*</FILTER>
     </SUITE>
   </component>
@@ -36,8 +33,8 @@
       <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="646">
+              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -45,20 +42,11 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="37" column="36" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="36" />
+            <state relative-caret-position="450">
+              <caret line="61" column="43" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuessResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -596,32 +584,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.should_the_guess__size_1_when_guess_input_one">
+  <component name="RunManager" selected="JUnit.GameTest.should_the_checkStatus_continue_when_guess_input_one">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="AnswerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
@@ -682,6 +647,29 @@
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
       <option name="METHOD_NAME" value="should_get__success_status_when_guess_input_is_correct" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GameTest.should_the_checkStatus_continue_when_guess_input_one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
+      <option name="METHOD_NAME" value="should_the_checkStatus_continue_when_guess_input_one" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -755,18 +743,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" />
-      <item itemvalue="JUnit.AnswerTest" />
       <item itemvalue="JUnit.GameTest" />
       <item itemvalue="JUnit.GameTest.should_get__success_status_when_guess_input_is_correct" />
       <item itemvalue="JUnit.GameTest.should_the_guess__size_1_when_guess_input_one" />
+      <item itemvalue="JUnit.GameTest.should_the_checkStatus_continue_when_guess_input_one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.should_the_checkStatus_continue_when_guess_input_one" />
+        <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.should_the_guess__size_1_when_guess_input_one" />
         <item itemvalue="JUnit.GameTest.should_get__success_status_when_guess_input_is_correct" />
-        <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" />
-        <item itemvalue="JUnit.AnswerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -784,12 +772,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnswerTest_should_retrun_right_answer_when_input_0_3_2_4 - 2018.07.12 at 17h 20m 41s.xml">
-      <configuration name="AnswerTest.should_retrun_right_answer_when_input_0_3_2_4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_retrun_1_when_input_0_3_2_4_create_right_answer - 2018.07.12 at 17h 26m 21s.xml">
-      <configuration name="AnswerTest.should_retrun_1_when_input_0_3_2_4_create_right_answer" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnswerTest_should_retrun_1_when_input_0_3_2_4_create_right_answer - 2018.07.12 at 17h 26m 34s.xml">
       <configuration name="AnswerTest.should_retrun_1_when_input_0_3_2_4_create_right_answer" configurationId="JUnit" />
     </history-entry>
@@ -814,6 +796,12 @@
     <history-entry file="GameTest - 2018.07.12 at 17h 44m 48s.xml">
       <configuration name="GameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GameTest_should_get__success_status_when_guess_input_is_correct - 2018.07.12 at 18h 31m 06s.xml">
+      <configuration name="GameTest.should_get__success_status_when_guess_input_is_correct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_should_the_guess__size_1_when_guess_input_one - 2018.07.12 at 18h 34m 19s.xml">
+      <configuration name="GameTest.should_the_guess__size_1_when_guess_input_one" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -828,7 +816,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
       <window_info anchor="right" id="Coverage" sideWeight="0.5016129" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -1021,8 +1009,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="36" />
+        <state relative-caret-position="450">
+          <caret line="61" column="43" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1031,8 +1019,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="646">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
         </state>
       </provider>
     </entry>
