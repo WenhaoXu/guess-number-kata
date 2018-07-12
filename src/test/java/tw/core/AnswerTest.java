@@ -40,4 +40,12 @@ public class AnswerTest {
 //        assert result.equals("1A0B");
         assertThat(result, is("0A2B"));
     }
+
+    @Test
+    public void should_retrun_1A2B_when_input_0_3_2_4()throws Exception{
+        Answer answer=Answer.createAnswer("0 3 2 4");
+        String result=actualAnswer.check(answer).getValue();
+//        assert result.equals("1A0B");
+        assertThat(result, is("1A2B"));
+    }
 }
