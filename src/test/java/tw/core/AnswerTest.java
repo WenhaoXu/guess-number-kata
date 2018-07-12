@@ -62,6 +62,13 @@ public class AnswerTest {
     public void should_retrun_wrong_input_when_input_1_1_2_3()throws  AnswerFormatIncorrectException{
 
         Answer answer=Answer.createAnswer("1 1 2 3");
-        
+
+    }
+
+    @Test
+    public void should_retrun_wrong_input_when_input_1_2()throws  AnswerFormatIncorrectException{
+
+        Answer answer=Answer.createAnswer("1 2");
+
     }
 }

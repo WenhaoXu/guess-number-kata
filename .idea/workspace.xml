@@ -596,7 +596,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnswerTest.should_retrun_wrong_input_when_input_1_1_2_3">
+  <component name="RunManager" selected="JUnit.AnswerTest.should_retrun_wrong_input_when_input_1_2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -613,29 +613,6 @@
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
       <option name="METHOD_NAME" value="should_retrun_0A0B_when_input_5_6_7_8" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AnswerTest.should_retrun_0A2B_when_input_0_5_2_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_retrun_0A2B_when_input_0_5_2_4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -715,6 +692,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AnswerTest.should_retrun_wrong_input_when_input_1_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="METHOD_NAME" value="should_retrun_wrong_input_when_input_1_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -754,19 +754,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnswerTest.should_retrun_0A2B_when_input_0_5_2_4" />
       <item itemvalue="JUnit.AnswerTest.should_retrun_0A2B_when_input_2_4_7_8" />
       <item itemvalue="JUnit.AnswerTest.should_retrun_1A2B_when_input_0_3_2_4" />
       <item itemvalue="JUnit.AnswerTest.should_retrun_0A0B_when_input_5_6_7_8" />
       <item itemvalue="JUnit.AnswerTest.should_retrun_wrong_input_when_input_1_1_2_3" />
+      <item itemvalue="JUnit.AnswerTest.should_retrun_wrong_input_when_input_1_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnswerTest.should_retrun_wrong_input_when_input_1_2" />
         <item itemvalue="JUnit.AnswerTest.should_retrun_wrong_input_when_input_1_1_2_3" />
         <item itemvalue="JUnit.AnswerTest.should_retrun_0A0B_when_input_5_6_7_8" />
         <item itemvalue="JUnit.AnswerTest.should_retrun_1A2B_when_input_0_3_2_4" />
         <item itemvalue="JUnit.AnswerTest.should_retrun_0A2B_when_input_2_4_7_8" />
-        <item itemvalue="JUnit.AnswerTest.should_retrun_0A2B_when_input_0_5_2_4" />
       </list>
     </recent_temporary>
   </component>
