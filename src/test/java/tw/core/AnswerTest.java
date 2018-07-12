@@ -48,4 +48,12 @@ public class AnswerTest {
 //        assert result.equals("1A0B");
         assertThat(result, is("1A2B"));
     }
+
+    @Test
+    public void should_retrun_0A0B_when_input_5_6_7_8()throws Exception{
+        Answer answer=Answer.createAnswer("5 6 7 8");
+        String result=actualAnswer.check(answer).getValue();
+//        assert result.equals("1A0B");
+        assertThat(result, is("0A0B"));
+    }
 }
