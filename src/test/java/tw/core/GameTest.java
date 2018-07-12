@@ -50,5 +50,15 @@ public class GameTest {
         assertThat(game.guessHistory().size(), is(1));
     }
 
+    @Test
+    public void should_the_checkContinue_true_when_guess_input_one() throws Exception {
+
+        //given
+//        excuteSuccessGuess();
+        GuessResult guess = game.guess(Answer.createAnswer("1 5 3 4"));
+
+
+        assertThat(game.checkCoutinue(), is(true));
+    }
 
 }

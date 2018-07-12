@@ -596,7 +596,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.should_get__success_status_when_guess_input_is_correct">
+  <component name="RunManager" selected="JUnit.GameTest.should_the_guess__size_1_when_guess_input_one">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -614,29 +614,6 @@
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AnswerTest.should_answer_getIndexOfNum_retrun_1_when_input_0_3_2_4_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_answer_getIndexOfNum_retrun_1_when_input_0_3_2_4_" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -715,6 +692,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="GameTest.should_the_guess__size_1_when_guess_input_one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
+      <option name="METHOD_NAME" value="should_the_guess__size_1_when_guess_input_one" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -754,19 +754,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnswerTest.should_answer_getIndexOfNum_retrun_1_when_input_0_3_2_4_" />
       <item itemvalue="JUnit.AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" />
       <item itemvalue="JUnit.AnswerTest" />
       <item itemvalue="JUnit.GameTest" />
       <item itemvalue="JUnit.GameTest.should_get__success_status_when_guess_input_is_correct" />
+      <item itemvalue="JUnit.GameTest.should_the_guess__size_1_when_guess_input_one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.should_the_guess__size_1_when_guess_input_one" />
         <item itemvalue="JUnit.GameTest.should_get__success_status_when_guess_input_is_correct" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" />
         <item itemvalue="JUnit.AnswerTest" />
-        <item itemvalue="JUnit.AnswerTest.should_answer_getIndexOfNum_retrun_1_when_input_0_3_2_4_" />
       </list>
     </recent_temporary>
   </component>
