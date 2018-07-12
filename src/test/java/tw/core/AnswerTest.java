@@ -64,26 +64,23 @@ public class AnswerTest {
         try
         {    Answer answer=Answer.createAnswer("1 1 2 3");
             answer.validate();
-            fail("should return ");
+            fail("should return wrong");
         }
         catch (AnswerFormatIncorrectException  exception){
 
         }
-
-
     }
 
     @Test
-    public void should_retrun_wrong_input_when_input_1_2(){
-
+    public void should_run_input_when_input_1_5_2_3(){
         try
-        {    Answer answer=Answer.createAnswer("1 2");
+        {    Answer answer=Answer.createAnswer("1 5 2 3");
             answer.validate();
-            fail("should return ");
+
         }
         catch (AnswerFormatIncorrectException  exception){
-
+            fail("should return right");
         }
-
     }
+
 }
