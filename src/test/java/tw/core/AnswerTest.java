@@ -7,6 +7,7 @@ import tw.core.exception.AnswerFormatIncorrectException;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
+import static org.junit.jupiter.api.Assertions.fail;
 
 /**
  * Created by jxzhong on 2017/9/23.
@@ -59,16 +60,30 @@ public class AnswerTest {
     }
 
     @Test
-    public void should_retrun_wrong_input_when_input_1_1_2_3()throws  AnswerFormatIncorrectException{
+    public void should_return_wrong_input_when_input_1_1_2_3(){
+        try
+        {    Answer answer=Answer.createAnswer("1 1 2 3");
+            answer.validate();
+            fail("should return ");
+        }
+        catch (AnswerFormatIncorrectException  exception){
 
-        Answer answer=Answer.createAnswer("1 1 2 3");
+        }
+
 
     }
 
     @Test
-    public void should_retrun_wrong_input_when_input_1_2()throws  AnswerFormatIncorrectException{
+    public void should_retrun_wrong_input_when_input_1_2(){
 
-        Answer answer=Answer.createAnswer("1 2");
+        try
+        {    Answer answer=Answer.createAnswer("1 2");
+            answer.validate();
+            fail("should return ");
+        }
+        catch (AnswerFormatIncorrectException  exception){
+
+        }
 
     }
 }
