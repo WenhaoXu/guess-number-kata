@@ -33,4 +33,11 @@ public class AnswerTest {
         assertThat(result, is("1A0B"));
     }
 
+    @Test
+    public void should_retrun_0A2B_when_input_2_4_7_8()throws Exception{
+        Answer answer=Answer.createAnswer("2 4 7 8");
+        String result=actualAnswer.check(answer).getValue();
+//        assert result.equals("1A0B");
+        assertThat(result, is("0A2B"));
+    }
 }

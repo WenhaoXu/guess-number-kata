@@ -24,8 +24,8 @@
       <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="433">
+              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -582,9 +582,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnswerTest.should_retrun_1A0B_when_input_1_5_6_7">
+  <component name="RunManager" selected="JUnit.AnswerTest.should_retrun_0A2B_when_input_2_4_7_8">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="AnswerTest.should_retrun_0A2B_when_input_0_5_2_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="METHOD_NAME" value="should_retrun_0A2B_when_input_0_5_2_4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AnswerTest.should_retrun_0A2B_when_input_2_4_7_8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="METHOD_NAME" value="should_retrun_0A2B_when_input_2_4_7_8" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="AnswerTest.should_retrun_1A0B_when_input_1_5_6_7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
@@ -697,9 +743,13 @@
       <item itemvalue="JUnit.AnswerTest.should_retrun_when_input_1_2_3_4" />
       <item itemvalue="JUnit.AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" />
       <item itemvalue="JUnit.AnswerTest.should_retrun_1A0B_when_input_1_5_6_7" />
+      <item itemvalue="JUnit.AnswerTest.should_retrun_0A2B_when_input_0_5_2_4" />
+      <item itemvalue="JUnit.AnswerTest.should_retrun_0A2B_when_input_2_4_7_8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnswerTest.should_retrun_0A2B_when_input_2_4_7_8" />
+        <item itemvalue="JUnit.AnswerTest.should_retrun_0A2B_when_input_0_5_2_4" />
         <item itemvalue="JUnit.AnswerTest.should_retrun_1A0B_when_input_1_5_6_7" />
         <item itemvalue="JUnit.AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" />
         <item itemvalue="JUnit.AnswerTest.should_retrun_when_input_1_2_3_4" />
@@ -720,24 +770,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnswerTest_should_retrun_when_input_1_2_3_4 - 2018.07.12 at 15h 07m 02s.xml">
-      <configuration name="AnswerTest.should_retrun_when_input_1_2_3_4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_retrun_4A0B_when_input_1_2_3_4 - 2018.07.12 at 15h 11m 46s.xml">
-      <configuration name="AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_retrun_4A0B_when_input_1_2_3_4 - 2018.07.12 at 15h 12m 13s.xml">
-      <configuration name="AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_retrun_1A0B_when_input_1_5_6_7 - 2018.07.12 at 15h 18m 08s.xml">
-      <configuration name="AnswerTest.should_retrun_1A0B_when_input_1_5_6_7" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_retrun_4A0B_when_input_1_2_3_4 - 2018.07.12 at 15h 18m 24s.xml">
-      <configuration name="AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_retrun_1A0B_when_input_1_5_6_7 - 2018.07.12 at 15h 18m 47s.xml">
-      <configuration name="AnswerTest.should_retrun_1A0B_when_input_1_5_6_7" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnswerTest_should_retrun_1A0B_when_input_1_5_6_7 - 2018.07.12 at 15h 19m 33s.xml">
       <configuration name="AnswerTest.should_retrun_1A0B_when_input_1_5_6_7" configurationId="JUnit" />
     </history-entry>
@@ -750,14 +782,32 @@
     <history-entry file="AnswerTest_should_retrun_1A0B_when_input_1_5_6_7 - 2018.07.12 at 15h 25m 59s.xml">
       <configuration name="AnswerTest.should_retrun_1A0B_when_input_1_5_6_7" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AnswerTest_should_retrun_4A0B_when_input_1_2_3_4 - 2018.07.12 at 15h 27m 48s.xml">
+      <configuration name="AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_retrun_4A0B_when_input_1_2_3_4 - 2018.07.12 at 15h 28m 24s.xml">
+      <configuration name="AnswerTest.should_retrun_4A0B_when_input_1_2_3_4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_retrun_1A0B_when_input_1_5_6_7 - 2018.07.12 at 15h 28m 32s.xml">
+      <configuration name="AnswerTest.should_retrun_1A0B_when_input_1_5_6_7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_retrun_1A0B_when_input_1_5_6_7 - 2018.07.12 at 15h 29m 04s.xml">
+      <configuration name="AnswerTest.should_retrun_1A0B_when_input_1_5_6_7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_retrun_0A2B_when_input_0_5_2_4 - 2018.07.12 at 15h 31m 22s.xml">
+      <configuration name="AnswerTest.should_retrun_0A2B_when_input_0_5_2_4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_retrun_0A2B_when_input_0_5_2_4 - 2018.07.12 at 15h 31m 46s.xml">
+      <configuration name="AnswerTest.should_retrun_0A2B_when_input_0_5_2_4" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -917,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="433">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
