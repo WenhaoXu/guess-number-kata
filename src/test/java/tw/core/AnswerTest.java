@@ -4,6 +4,7 @@ package tw.core;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import tw.core.exception.AnswerFormatIncorrectException;
+import tw.core.model.Record;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
@@ -23,8 +24,8 @@ public class AnswerTest {
     @Test
     public void should_retrun_4A0B_when_input_1_2_3_4()throws Exception{
        Answer answer=Answer.createAnswer("1 2 3 4");
-       String result=actualAnswer.check(answer).getValue();
-       assert result.equals("4A0B");
+       Record record=actualAnswer.check(answer);
+       assert record.getValue().equals("4A0B");
     }
 
     @Test

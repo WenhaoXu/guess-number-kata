@@ -34,9 +34,21 @@ public class GameTest {
         //when
         //then
         assertThat(guess.getResult(), is("4A0B"));
-
     }
 
+    @Test
+    public void should_the_guess_history_size_1_when_guess_input_one() throws Exception {
+
+        //given
+//        excuteSuccessGuess();
+        GuessResult guess = game.guess(Answer.createAnswer("1 5 3 4"));
+//        guess = game.guess(Answer.createAnswer("1 6 3 4"));
+        //when
+        //then
+
+
+        assertThat(game.guessHistory().size(), is(1));
+    }
 
 
 }
