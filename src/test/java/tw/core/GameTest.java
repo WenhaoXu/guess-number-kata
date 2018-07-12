@@ -37,16 +37,6 @@ public class GameTest {
 
     }
 
-    @Test
-    public void should_retrun_1A0B_when_input_1_5_6_7() throws Exception {
 
-        //given
-//        excuteSuccessGuess();
-        GuessResult guess = game.guess(Answer.createAnswer("1 5 6 7"));
-        //when
-        //then
-        assertThat(guess.getResult(), is("1A0B"));
-
-    }
 
 }
