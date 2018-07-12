@@ -83,4 +83,13 @@ public class AnswerTest {
         }
     }
 
+    @Test
+    public void should_retrun_1_when_input_0_3_2_4_create_right_answer()throws Exception{
+        Answer answer=Answer.createAnswer("0 3 2 4");
+//        String result=actualAnswer.check(answer).getValue();
+//        assert result.equals("1A0B");
+        assertThat(answer.getIndexOfNum("3"), is(1));
+    }
+
+
 }
